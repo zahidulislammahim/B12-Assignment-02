@@ -1,5 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0;
+    background-color: rgb(245, 248, 255);
+}
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.description{
+    color: rgba(0, 0, 0, 0.5);
+}
 
+.trust-batch{
+    position: relative;
+}
+.trusted-batch{
+    z-index: 1;
+    width: 280px;
+    position: absolute;
+    top: -140px;
+    left: 340px;
+    filter: drop-shadow(-4px 10px 2px rgba(0, 0, 0, 0.25)); 
+}
+
+.offer-area{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(1, 1fr);
+grid-column-gap: 25px;
+grid-row-gap: 25px;
+color: white;
+margin-top: 100px;
+
+}
+
+.offer-box1 { grid-area: 1 / 1 / 2 / 2; 
+background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./assets/deal-bloom.png);
+width: 360px;
+height: 200px;
+margin-bottom: 20px;
+place-content: center;
+}
+.offer-box2 { grid-area: 2 / 1 / 3 / 2; 
+background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./assets/deal-ana.png);
+width: 360px;
+height: 200px;
+place-content: center;
+}
+.offer-box3 { grid-area: 1 / 2 / 3 / 4; 
+background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./assets/deal-zabo.png) ;
+width: 700px;
+height: 420px;
+place-content: center;
+}
+.box p{
+ font-size: 20px;
+ font-weight: bold;
+}
+.box a{
+    font-weight: 600;
+    text-decoration: underline;
+}
+.box{
+    border-radius: 14px;
+}
+.offer-box3 p{
+    font-size: 40px;
+}
+.offer-box3 a{
+    font-size: 28px;
+}
+.offer-box3{
+    border-radius: 22px;
+}
+.subscribe-img{
+    background-image: url(./assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 533px;
+    color: white;
+    place-content: center;
+    text-align: center;
+
+}
+
+input{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 8px 20px;
+    width: 644px;
+    margin-top: 30px;
+    outline: none;
+
+}
+.button{
+    background-color: #E95A08;
+    color: white;
+    margin-left: -4px;
+    width: 186px;
+    
+}
+footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 
 
