@@ -28,7 +28,7 @@ p {
     width: 280px;
     position: absolute;
     top: -140px;
-    left: 340px;
+    left: 255px;
     filter: drop-shadow(-4px 10px 2px rgba(0, 0, 0, 0.25)); 
 }
 
@@ -102,14 +102,12 @@ input{
     width: 644px;
     margin-top: 30px;
     outline: none;
-
 }
 .button{
     background-color: #E95A08;
     color: white;
     margin-left: -4px;
-    width: 186px;
-    
+    width: 186px;   
 }
 footer{
     margin-top: 50px;
@@ -117,5 +115,110 @@ footer{
 }
 
 
+
+@media (min-width: 992px) and (max-width:1199px) {
+    .subscribe-img{
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width:991px) {
+
+}
+@media (min-width: 576px) and (max-width:767px) {
+
+}
+@media (max-width: 575px) {
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul li .nav-item{
+        display: none;
+    }
+    .hero-contaner{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 390px;
+    }
+    .subscribe-img{
+        height: 275px;
+    }
+
+.w-7xl {
+    width: var(--container-xl);
+}
+.w-6xl {
+    width: var(--container-xs);
+}
+.text-6xl {
+    font-size: var(--text-2xl);
+}
+.text-2xl {
+    font-size: var(--text-base);
+}
+.text-5xl {
+    font-size: var(--text-2xl);
+}
+    
+    .plants-titel{
+        width: 100px;
+    }
+    .plants-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .trust-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .trusted-batch{
+        display: none;
+    }
+    .trust-list{
+        width: 400px;
+    }
+    .offer-area {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    }
+    .box{
+        width: 400px;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .box p{
+    font-size: 20px;
+    }
+    .box a{
+    font-size: 16px;
+    }
+    input{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 8px 20px;
+    width: 218px;
+    margin-top: 30px;
+    outline: none;
+}
+.button{
+    margin-left: -5px;
+    width: 100px;   
+}
+    .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+    footer.footer-icon{
+        display: flex;
+        flex-direction: row;
+    }
+}
 
 @import "tailwind"

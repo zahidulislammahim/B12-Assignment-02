@@ -10,15 +10,15 @@
 <body>
     <!-- Header part start -->
     <header>
-        <div class="flex justify-between items-center   w-6xl mx-auto p-5">
+        <div class="flex justify-between items-center   w-6xl mx-auto p-5 nav">
             <div>
                 <img src="assets/logo.png" alt="">
             </div>
             <nav>
                 <ul class="flex justify-between items-center gap-10 text-[#8987A1]">
-                    <li><a class="text-[#252432] font-bold" href="">Home</a></li>
-                    <li><a href="">Shop</a></li>
-                    <li><a href="">About us</a></li>
+                    <li><a class="text-[#252432] font-bold nav-item" href="">Home</a></li>
+                    <li><a href="" class="nav-item">Shop</a></li>
+                    <li><a href="" class="nav-item">About us</a></li>
                     <li class="flex items-center gap-2 font-medium text-[#000000]">
                          <img src="assets/trolley.png" alt="" >
                          <a href="">Cart ($56)</a>
@@ -26,7 +26,7 @@
                 </ul>
             </nav>
         </div>
-        <div class="flex justify-between items-center w-6xl mx-auto p-5 mt-30">
+        <div class="flex justify-between items-center w-6xl mx-auto p-5 mt-30 hero-contaner">
             <div class="w-xl pt-20">
                 <h1 class="text-6xl font-bold mb-4 leading-[1.3]">
                     ALWAYS <span class="text-[#E95A08] ">FRESH FLOWERS</span> 
@@ -43,11 +43,11 @@
     <!-- main part start -->
     <main>
         <section class="Plants-Section w-6xl mx-auto p-5 mt-20 align-center">
-            <div class="text-center mb-10 w-4xl mx-auto">
+            <div class="text-center mb-10 w-4xl mx-auto plants-titel">
                 <h2 class="text-5xl font-bold mb-10"> <span class="text-[#E95A08]">Our</span> Plants</h2>
                 <p class="description text-2xl" >Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             </div>
-            <div class="grid grid-cols-4 gap-5 mt-">
+            <div class="grid grid-cols-4 gap-5 plants-card">
                 <div class=" text-center mt-5">
                     <img src="assets/sample-flower-image.png" alt="">
                     <p class="mt-5 text-2xl font-medium">Lily Blossom</p>
@@ -101,12 +101,12 @@
         </section>
 
         <section class="trusted-seller">
-            <div class="w-6xl mx-auto p-5 mt-40 flex justify-between items-center gap-15">
+            <div class="w-6xl mx-auto p-5 mt-40 flex justify-between items-center gap-15 trust-section">
                 <div class="trust-batch w-7xl  flex items-center">
                     <img  class="trusted-img" src="assets/flower-store.png" alt="">
                     <img class="trusted-batch" src="assets/trusted-badge.png" alt="">
                 </div>
-                <div class="w-7xl  ">
+                <div class="w-7xl  teust-list">
                     <h2 class="text-5xl font-bold mb-5">Flower & Plants Lover</h2>
                     <ul class="list-disc">
                         <li class="description text-2xl ml-10 pb-5">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
@@ -141,7 +141,7 @@
             </div>
         </section>
 
-        <section class="Subscribe-section">
+        <section class="Subscribe-section mt-20">
             <div class="subscribe-img">
                 <h2 class="text-5xl font-bold">
                     Join the colorful Bunch
@@ -156,7 +156,7 @@
 
     <!-- footer part start -->
     <footer>
-        <div class="w-6xl mx-auto p-5 flex justify-between items-start gap-15">
+        <div class="w-6xl mx-auto p-5 flex justify-between items-start gap-15 footer">
             <div class="w-xs">
                 <img src="assets/logo.png" alt="">
                 <p class="description text-2xl mt-3 w-xs">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
@@ -175,7 +175,7 @@
                 <a href="">Terms of Service</a>
                 <a href="">Help Center</a>
              </div>
-             <div class="flex items-center gap-5">
+             <div class="flex items-center gap-5 footer-icon">
                 <img src="assets/icon-linkedin.png" alt="">
                 <img src="assets/icon-twitter.png" alt="a">
                 <img src="assets/icon-facebook.png" alt="">
