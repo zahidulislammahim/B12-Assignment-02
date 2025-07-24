@@ -281,11 +281,10 @@ footer{
     }
 }
 
-@media (max-width: 375px){
-     .px-20 {padding-inline: 25px;}
+@media (min-width: 375px) and (max-width:425px){
+      .px-20 {padding-inline: 10px;}
 }
-@media (max-width: 320px){
-     .px-20 {padding-inline: 10px;}
+@media (min-width: 320px) and (max-width:375px){
+      .px-20 {padding-inline: 10px;}
 }
-
 @import "tailwind"
