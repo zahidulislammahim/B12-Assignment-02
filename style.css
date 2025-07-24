@@ -117,15 +117,29 @@ footer{
 
 
 @media (min-width: 992px) and (max-width:1199px) {
+    .Subscribe-section{
+        width: 114%;
+    }
     .subscribe-img{
         width: 100%;
     }
+    
 }
 @media (min-width: 768px) and (max-width:991px) {
-
+.Subscribe-section{
+        width: 122.5%;
+    }
+    .subscribe-img{
+        width: 122.5%;
+    }
 }
 @media (min-width: 576px) and (max-width:767px) {
-
+.Subscribe-section{
+        width: 150%;
+    }
+    .subscribe-img{
+        width: 150%;
+    }
 }
 @media (max-width: 575px) {
     .logo-img{
@@ -190,7 +204,7 @@ footer{
         margin-top: 30px;
     }
  .px-20 {
-    padding-inline: 30px;
+    padding-inline: 40px;
 }
     .trust-img-area{
         width: 100%;
@@ -265,6 +279,13 @@ footer{
         display: flex;
         flex-direction: row;
     }
+}
+
+@media (max-width: 375px){
+     .px-20 {padding-inline: 25px;}
+}
+@media (max-width: 320px){
+     .px-20 {padding-inline: 10px;}
 }
 
 @import "tailwind"
