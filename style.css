@@ -28,7 +28,7 @@ p {
     width: 280px;
     position: absolute;
     top: -140px;
-    left: 255px;
+    left: 340px;
     filter: drop-shadow(-4px 10px 2px rgba(0, 0, 0, 0.25)); 
 }
 
@@ -128,6 +128,9 @@ footer{
 
 }
 @media (max-width: 575px) {
+    .logo-img{
+        width:70px ;
+    }
     .nav{
         display: flex;
         justify-content: space-between;
@@ -139,16 +142,22 @@ footer{
         display: flex;
         flex-direction: column-reverse;
         width: 390px;
+        margin-top: 0px;
+        padding: 0px;
+    }
+    .hero-text{
+        padding: 20px;
+        
     }
     .subscribe-img{
         height: 275px;
     }
+    .description{
+        width: 100%;
+    }
 
-.w-7xl {
-    width: var(--container-xl);
-}
-.w-6xl {
-    width: var(--container-xs);
+.mb-10 {
+    margin-bottom: calc(var(--spacing) * 5);
 }
 .text-6xl {
     font-size: var(--text-2xl);
@@ -158,37 +167,74 @@ footer{
 }
 .text-5xl {
     font-size: var(--text-2xl);
+} 
+.w-xl {
+    width: 100%;
 }
-    
+.w-6xl {
+    width: 100%;
+}
+
     .plants-titel{
-        width: 100px;
+        width: 100%;
+        padding: 0px 20px;
     }
     .plants-card{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        /* align-items: center; */
     }
-
+    .Plants-Section{
+        width: 100%;
+        margin-top: 30px;
+    }
+ .px-20 {
+    padding-inline: 30px;
+}
+    .trust-img-area{
+        width: 100%;
+        
+    }
     
     .trust-section{
         display: flex;
         flex-direction: column;
+        width: 100%;
+        margin-top: 50px;
     }
     .trusted-batch{
         display: none;
     }
     .trust-list{
-        width: 400px;
+        width:80%;
+        margin-left: -40px;
+    }
+
+
+    .latest-deals{
+    width: 100%;
+    }
+    .latest-con {
+        width: 100%;
+        padding: 1px 1px;
+        margin: 1px;
+    }
+    .latest-deals-titel{
+    width: 80%;
+    padding: 0px 10px;
+    margin-top: 50px;
     }
     .offer-area {
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
+    margin-top: 50px;
     }
     .box{
-        width: 400px;
-        height: 300px;
+        width: 361px;
+        height: 180px;
         background-repeat: no-repeat;
         background-size: cover;
     }
