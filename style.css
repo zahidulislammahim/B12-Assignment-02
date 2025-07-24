@@ -110,8 +110,8 @@ input{
     width: 186px;   
 }
 footer{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 50px 0px;
+    background-color: white;
 }
 
 
